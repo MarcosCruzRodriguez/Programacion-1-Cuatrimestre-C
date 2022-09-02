@@ -1,17 +1,28 @@
 /*
  ============================================================================
- Name        : Ejercicio.c
- Author      : 
- Version     :
- Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Marcos Cruz Rodriguez, Div D
+ Ejercicio 3-1 funciones
+
+ Crear una función que muestre por pantalla el número entero que
+ recibe como parámetro.
  ============================================================================
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
-	return EXIT_SUCCESS;
+void numeroMostrado(int numero);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+
+
+
+	return 0;
+}
+
+void numeroMostrado(int numero)
+{
+
 }
