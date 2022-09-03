@@ -10,7 +10,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+float pideNumero (void);
+
 int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
-	return EXIT_SUCCESS;
+	setbuf(stdout, NULL);
+	float final;
+
+	final = pideNumero();
+	printf("\nEl numero ingresado es: %.2f", final);
+
+	return 0;
+}
+
+float pideNumero (void)
+{
+	float numero;
+
+	printf("Ingrese un numero: ");
+	scanf("%f", &numero);
+
+	return numero;
 }
