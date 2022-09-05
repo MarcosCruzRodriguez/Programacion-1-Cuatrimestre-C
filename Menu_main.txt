@@ -4,6 +4,7 @@ Menu txt, main branch
 Toma de nota primer sabado: 
 
 Toma de apuntes Sabri/Prog: https://www.onlinegdb.com/Gn2YtwCML
+Explicacion teorica GERMAN: https://onlinegdb.com/o0_1lthQw
 
 Toma de datos FUNCION: https://onlinegdb.com/zT7lGNmFJ
 Funcion pedir nuemro: https://www.onlinegdb.com/f9_KCfvNl
